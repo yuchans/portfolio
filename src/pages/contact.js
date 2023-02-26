@@ -1,9 +1,7 @@
-import Head from "next/head";
-import Link from "next/link";
 import Layout from "components/layout";
-import Hero from "components/home/hero";
+import Head from "next/head";
 
-export default function Home() {
+export default function Contant() {
     return (
         <Layout>
             <Head>
@@ -11,7 +9,7 @@ export default function Home() {
                 <meta name="description" content="빡빡이 포트폴리오" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Hero />
+            <h1>연락하기</h1>
         </Layout>
     );
 }
