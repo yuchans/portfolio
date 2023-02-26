@@ -3,13 +3,11 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="flex min-h-screen flex-col items-center text-gray-600 body-font">
-            <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <section className="text-gray-600 body-font">
+            <div className="container mx-auto flex px-5 sm:px-0 py-24 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h2 className="text-4xl font-extrabold">
-                        안녕하세요 빡빡이 입니다!
-                        <br className="hidden lg:inline-block" />
-                        오늘도 빡코딩?
+                        안녕하세요 <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">프론트엔드 개발자를</span> 나아가는 정유찬 입니다.
                     </h2>
                     <p className="my-4 text-lg text-gray-500">
                         품었기 청춘에서만 것은 돋고, 이것이다. 이상을 방황하였으며, 모래뿐일 가치를 청춘의 창공에 같지 황금시대를 대중을 것이다. 눈이 목숨이 그들의 착목한는 사람은 시들어 같이, 그들은 방황하였으며, 이것이다. 그들의 얼음에 반짝이는
